@@ -1,0 +1,4 @@
+case_name,path,P,P_inf,pressure_ratio
+dri_module,../runs/dri_tests/dri_module,882.7278731668185,1197.02797477343,0.7374329520861019
+dri_module_scale2,../runs/dri_tests/dri_module_scale2,819.5781742690698,1197.02797477343,0.6846775443357513
+dri_module_scale3,../runs/dri_tests/dri_module_scale3,819.7185394511082,1197.02797477343,0.6847948057406612

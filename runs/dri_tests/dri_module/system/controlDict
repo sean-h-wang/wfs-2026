@@ -1,0 +1,32 @@
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    object      controlDict;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+application     rhoCentralFoam;
+
+startFrom       startTime;
+startTime       0;
+stopAt          endTime;
+endTime         0.01;
+
+adjustTimeStep  yes;
+maxCo           0.5;
+maxAcousticCo   0.5;
+maxDeltaT       5e-07;
+deltaT          1e-9;
+
+writeControl    adjustableRunTime;
+writeInterval   0.0001;
+
+purgeWrite      0;
+writeFormat     binary;
+writePrecision  8;
+writeCompression off;
+timeFormat      fixed;
+timePrecision   10;
+runTimeModifiable true;

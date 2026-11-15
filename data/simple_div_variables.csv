@@ -1,0 +1,6 @@
+Name,Variable type,Value,Description
+h_inlet,LENGTH,100 mm,
+theta_div,ANGLE,6 deg,
+theta_conv,ANGLE,12 deg,
+L_div,LENGTH,200 mm,
+L_conv,LENGTH,50 mm,

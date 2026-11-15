@@ -1,0 +1,50 @@
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       volScalarField;
+    object      rho;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+dimensions      [1 -3 0 0 0 0 0];
+
+internalField   uniform 0.018410;
+
+boundaryField
+{
+    upstream
+    {
+        type            calculated;
+        value           uniform 0.018410;
+    }
+    
+    downstream
+    {
+        type            calculated;
+        value           uniform 0.018410;
+    }
+    
+    farfield
+    {
+        type            calculated;
+        value           uniform 0.018410;
+    }
+    
+    walls
+    {
+        type            calculated;
+        value           uniform 0.018410;
+    }
+    
+    centerline
+    {
+        type            symmetryPlane;
+    }
+    
+    defaultFaces
+    {
+        type            empty;
+    }
+    
+}

@@ -1,0 +1,13 @@
+# Diverging Ram Inlet (DRI) CFD Test Runs
+
+This directory (`runs/dri_tests`) contains OpenFOAM CFD test cases for diverging duct geometries and Diverging Ram Inlet (DRI) module tests.
+
+## 🛠️ Configuration & Setup
+
+* **Solver:** `rhoCentralFoam`
+* **Flow Type:** 2D Planar
+* **Viscosity:** Inviscid
+
+## WARNING
+
+These are not fully converged. We don't do that becuase it would just confirm failures we're moving away from.

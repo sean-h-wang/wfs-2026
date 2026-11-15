@@ -1,0 +1,4 @@
+case_name,path,P,P_inf,pressure_ratio
+div_duct_basic,../runs/dri_tests/div_duct_basic,313.6260060588028,1197.02797477343,0.2620039068996403
+div_duct_basic_scale2,../runs/dri_tests/div_duct_basic_scale2,836.8730893538716,1197.02797477343,0.6991257572842209
+div_duct_basic_scale3,../runs/dri_tests/div_duct_basic_scale3,932.068984051198,1197.02797477343,0.7786526327654266

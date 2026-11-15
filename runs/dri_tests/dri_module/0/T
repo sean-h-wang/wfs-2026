@@ -1,0 +1,47 @@
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       volScalarField;
+    object      T;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+dimensions      [0 0 0 1 0 0 0];
+
+internalField   uniform 226.5091;
+
+boundaryField
+{
+    upstream
+    {
+        type            fixedValue;
+        value           uniform 226.5091;
+    }
+    
+    downstream
+    {
+        type            zeroGradient;
+    }
+    
+    farfield
+    {
+        type            zeroGradient;
+    }
+    
+    walls
+    {
+        type            zeroGradient;
+    }
+    
+    centerline
+    {
+        type            symmetryPlane;
+    }
+    
+    defaultFaces
+    {
+        type            empty;
+    }
+    
+}

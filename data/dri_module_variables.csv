@@ -1,0 +1,7 @@
+Name,Variable type,Value,Description
+theta_div,ANGLE,5 deg,
+theta_wedge,ANGLE,15 deg,
+h_inlet,LENGTH,100 mm,
+h_wedge,LENGTH,10 mm,
+L_div,LENGTH,300 mm,
+L_isolation,LENGTH,150 mm,
